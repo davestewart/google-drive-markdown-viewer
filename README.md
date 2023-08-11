@@ -1,4 +1,4 @@
-Google Drive Markdown Viewer
+# Google Drive Markdown Viewer
 
 > View markdown files in Google Drive
 
