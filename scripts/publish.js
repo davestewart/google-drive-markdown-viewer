@@ -11,7 +11,7 @@ function readJson (path) {
 function makeZip () {
   // variables
   const pkg = readJson('../package.json')
-  const path = `../${pkg.name}.zip`
+  const path = `../build/${pkg.name}.zip`
   const destination = Path.resolve(path)
 
   // delete destination if it exists
@@ -36,5 +36,5 @@ function makeZip () {
   })
 }
 
-makeZip()
+void makeZip()
 

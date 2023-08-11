@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
       })
     ],
     build: {
+      outDir: 'build/dist',
       emptyOutDir: mode === 'production'
     }
   }
