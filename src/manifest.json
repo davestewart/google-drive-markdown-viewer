@@ -1,0 +1,23 @@
+{
+  "name": "Google Drive Markdown Viewer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://drive.google.com/drive/*"
+      ],
+      "css": [
+        "assets/theme.css"
+      ],
+      "js": [
+        "assets/marked.min.js",
+        "index.js"
+      ]
+    }
+  ]
+}

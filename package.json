@@ -1,0 +1,35 @@
+{
+  "name": "google-drive-markdown-viewer",
+  "version": "1.0.0",
+  "description": "View markdown files in Google Drive",
+  "main": "scripts/publish.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "node scripts/publish.js"
+  },
+  "devDependencies": {
+    "vite-plugin-crx-mv3": "workspace:*",
+    "bestzip": "^2.2.1",
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davestewart/google-drive-markdown-viewer.git"
+  },
+  "keywords": [
+    "google-drive",
+    "markdown",
+    "document"
+  ],
+  "author": "Dave Stewart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davestewart/google-drive-markdown-viewer/issues"
+  },
+  "homepage": "https://github.com/davestewart/google-drive-markdown-viewer#readme"
+}
